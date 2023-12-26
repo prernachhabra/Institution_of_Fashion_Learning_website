@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Institute of Fashion Learning</title>
+    <link rel="icon" href="Images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="Images/college_logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!-- ------------courses------------- -->
+
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <div class="course-intro">
+        <p>
+          Explore our programs designed to nurture
+          your passion for fashion and equip you with the skills to shape the
+          future.
+        </p>
+      </div>
+      <div class="row">
+        <div class="course-col">
+          <h3>Fashion Designing</h3>
+          <p>
+          The Fashion Designing course Unlock your creative potential, learn the intricacies of design,
+          and gain hands-on experience to shape your unique voice in the dynamic realm of fashion.
+          
+        </div>
+        <div class="course-col">
+          <h3>Stitching </h3>
+          <p>
+             Hands-on program is designed for enthusiasts and aspiring professionals alike. 
+             Dive into the world of stitches, seams, and impeccable finishes, 
+             and turn your love for stitching into a skill that brings your fashion visions to life.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Embroidery </h3>
+          <p>
+            Delve into the world of delicate stitches, patterns, and embellishments, 
+            honing your skills to create stunning and personalized fabric masterpieces, 
+            adding a touch of elegance and craftsmanship to your creative journey.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Sketching & Painting</h3>
+          <p>
+            Develop the artistry of fashion illustration, from 
+            sketching initial concepts to bringing them to life with vibrant paints.
+             Unleash your imagination and acquire the skills to communicate your design ideas with 
+             flair and precision.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------facilities---------------- -->
+
+    <section class="facilities">
+      <h1>Career</h1>
+      <div class="facilities-intro">
+        <p>
+          The IFL provides opportunities for the student to have their own fashion centers and also provide placement in those fashion centers too.
+        </p>
+      </div>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="Images/facilities1.jpg" alt="" />
+          <h3>Fashion Boutique</h3>
+          <p>
+            15+ Boutique Opening of students.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="Images/facilities2.jpg" alt="" />
+          <h3>Job opportunities</h3>
+          <p>
+            Provide job opportunities on fashion Boutique and many other places.
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="Images/facilities3.jpg" alt="" />
+          <h3>Clothing Shop</h3>
+          <p>
+            Student can open their own clothing fashion shops and centers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------footer---------------- -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          "Our primary goal is to create a vibrant and inclusive learning environment where aspiring fashion enthusiasts, 
+          designers, and professionals can explore, learn, and grow.  <br />
+          our mission is to empower and inspire individuals to excel in the dynamic and ever-evolving world of fashion."
+        </p>
+      </div>
+      <div class="icons">
+        <!-- <a
+          href="https://www.facebook.com/profile.php?id=100094296491449"
+          class="fa fa-facebook"
+        ></a> -->
+        <a
+          href="https://www.instagram.com/fashion_institute_025?igsh=OGVqMWpsbjdqeGU="
+          class="fa fa-instagram"
+        ></a>
+      </div>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
